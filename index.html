@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <div class="container" id="myForm">
+        <h1 id="form">SURVEY FORM</h1>
+        <table>    
+            <tr><td>FIRST-NAME:<input type="text" id="first-name" placeholder="FistName"></td></tr>
+            <tr><td>LAST-NAME: <input type="text" id="last-name" placeholder="LastName"></td></tr>
+           <tr><td> GENDER:  <input type="radio" id="align"name="gender" value="Male">Male  <input type="radio" value="Female"name="gender">Female
+        </td></tr>
+           <tr><td>ADDRESS:<input type="text" id="Address" placeholder="Address"></td></tr>
+           <tr><td>PIN:<input type="text" id="Pin" placeholder="PIN"></td></tr>
+           <tr><td>STATE:<input type="text" id="State" placeholder="State"></td></tr>
+           <tr><td>COUNTRY:<input type="text" id="Country" placeholder="Country"></td></tr>
+           <tr><td>FOOD:
+                <input type="radio" id="food"value="Pizza" name="food1">Pizza</option>
+                <input type="radio"value="burger"name="food1">Burger</option>
+                <input type="radio" value="pazta" name="food1">Pazta</option>
+                <input type="radio" name="food2" value="friedchicken">FriedChicken</option>
+                <input type="radio" name="food2"value="noodles">Noodles</option></td></tr>                    
+            </td></tr>
+            <tr><td><input type="button" id="add" value="ADD VALUES TO THE TABLE">
+            <input type="button" id="del" value="DELETE">
+        </td></tr>        
+    </table>
+    </div>
+
+    <div class="container-fluid" id="my_table">
+            <table id="table_of_information" class="table table-bordered table-stripped">
+                <tbody class="data">
+            <tr>
+                <td>Firstname</td>
+                <td>Lastname</td>
+                <td>Address</td>
+                <td>PIN</td>
+                <td>State</td>
+                <td>Country</td>
+                <td>Gender</td> 
+                <td>Food-1</td>  
+                <td>Food-2</td>             
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="js/jquery-3.6.0.min (1).js"></script>
+     <script src="js/bootstrap.min.js"></script> 
+     <script src="script.js"></script>
+     
+</body>
+</html>
+
+

@@ -1,0 +1,29 @@
+#h1{
+    text-align: center;
+}
+ #first-name{
+
+    margin-left: 20px;
+}
+#last-name{
+
+    margin-left: 20px;
+}
+#align{
+    margin-left:42px;
+}
+#Address{
+    margin-left:40px;
+}
+#Pin{
+    margin-left:80px;
+}
+#State{
+    margin-left:65px;
+}
+#Country{
+    margin-left:34px;
+}
+#food{
+    margin-left: 55px;
+}
